@@ -12,7 +12,7 @@ Competition-driven engineer spanning **computer vision**, **agents**, and **sear
 
 After every competition I dissect the winning solutions at the code level and turn them into reusable methodology.
 
-📌 Featured: [Recodai-sifd-silver-solution](https://github.com/cainiao33/Recodai-sifd-silver-solution) — my Kaggle silver-medal solution with a full retrospective of all top-6 gold approaches.
+📌 Featured: [Recod.AI/LUC — Scientific Image Forgery Detection: Silver Medal Solution](https://github.com/cainiao33/Recod.AI-LUC-Scientific-Image-Forgery-Detection-Silver-Medal-Solution) — my Kaggle silver-medal solution with a full retrospective of all top-6 gold approaches.
 
 ---
 
@@ -26,5 +26,5 @@ After every competition I dissect the winning solutions at the code level and tu
 
 习惯对每场比赛做代码级复盘,把头部方案沉淀为可复用的方法论。
 
-📌 代表作:[Recodai-sifd-silver-solution](https://github.com/cainiao33/Recodai-sifd-silver-solution) —— Kaggle 银牌方案,附全部前六名金牌方案的完整复盘。
+📌 代表作:[Recod.AI/LUC — Scientific Image Forgery Detection: Silver Medal Solution](https://github.com/cainiao33/Recod.AI-LUC-Scientific-Image-Forgery-Detection-Silver-Medal-Solution) —— Kaggle 银牌方案,附全部前六名金牌方案的完整复盘。
 

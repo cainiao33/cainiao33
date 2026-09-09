@@ -6,7 +6,7 @@
 
 ## 📌 代表作
 
-| 项目 | 一句话 | 成绩 |
+| 比赛 | 思路/方法 | 成绩 |
 |------|--------|------|
 | [AIC-4D-Radar-Camera-Fusion](https://github.com/cainiao33/AIC-4D-Radar-Camera-Fusion) | 4D 毫米波雷达 + 单目相机融合 3D 检测：SFA4D 框架（8D→4D 映射、KFPN、无锚点检测头），110 FPS、ONNX 13 MB | AIC 2025 全球校园算法精英大赛 **全国总决赛二等奖** · 75 mAP@0.5 |
 | [Scientific-Image-Forgery-Detection](https://github.com/cainiao33/Recod.AI-LUC-Scientific-Image-Forgery-Detection-Silver-Medal-Solution) | 科学图像 copy-move 伪造分割：冻结 DINOv2 + 轻量 CNN 解码器，保守双门控压误检，附前六名金牌方案完整复盘 | 🥈 **Kaggle 银牌**（1,564 队） |

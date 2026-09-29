@@ -8,7 +8,7 @@
 
 | 比赛 | 思路/方法 | 成绩 |
 |------|--------|------|
-| [AIC-4D-Radar-Camera-Fusion](https://github.com/cainiao33/AIC-4D-Radar-Camera-Fusion) | 4D 毫米波雷达 + 单目相机融合 3D 检测：SFA4D 框架（8D→4D 映射、KFPN、无锚点检测头），110 FPS、ONNX 13 MB | AIC 2025 全球校园算法精英大赛 **全国总决赛二等奖** · 75 mAP@0.5 |
+| [AIC-4D-Radar-Detection](https://github.com/cainiao33/AIC-4D-Radar-Detection) | 4D 毫米波雷达点云 3D 检测：基于 SFA3D（网络沿用原版），原创 8D→4D SNR 映射/跨类别 NMS，110 FPS · INT8 12.3 MB | AIC 2025 全球校园算法精英大赛 **全国总决赛二等奖** · 75 mAP@0.5 |
 | [Scientific-Image-Forgery-Detection](https://github.com/cainiao33/Recod.AI-LUC-Scientific-Image-Forgery-Detection-Silver-Medal-Solution) | 科学图像 copy-move 伪造分割：冻结 DINOv2 + 轻量 CNN 解码器，保守双门控压误检，附前六名金牌方案完整复盘 | 🥈 **Kaggle 银牌**（1,564 队） |
 | [Go2_RL](https://github.com/cainiao33/Go2_RL) | Unitree Go2 四足机器人强化学习：自主导航 + 运动控制（PPO + 奖励工程深度对齐评分公式 + 课程学习） | 腾讯开悟全球公开赛 区域初赛**第 2** · 全国决赛**二等奖** |
 

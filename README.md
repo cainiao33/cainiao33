@@ -1,38 +1,39 @@
-# Cainiao · 计算机视觉 & 机器人感知
+# Cainiao · CV & Robotic Perception
 
-> CV & robotic perception — competition-grade solutions, code-level retrospectives, open source.
+> 计算机视觉 & 机器人感知 — 竞赛级方案 · 代码级复盘 · 开源。
 
-🎯 **currently**：检测 / 融合算法的边缘部署（edge deployment of detection models）
+🎯 **currently**: edge deployment of detection / fusion models（检测 / 融合算法的边缘部署）
 
-## 📌 代表作
+## 📌 Featured
 
-| 比赛 | 思路/方法 | 成绩 |
+| Competition | Approach | Result |
 |------|--------|------|
-| [AIC-4D-Radar-Detection](https://github.com/cainiao33/AIC-4D-Radar-Detection) | 4D 毫米波雷达点云 3D 检测：基于 SFA3D（网络沿用原版），原创 8D→4D SNR 映射/跨类别 NMS，110 FPS · INT8 12.3 MB | AIC 2025 全球校园算法精英大赛 **全国总决赛二等奖** · 75 mAP@0.5 |
-| [Scientific-Image-Forgery-Detection](https://github.com/cainiao33/Recod.AI-LUC-Scientific-Image-Forgery-Detection-Silver-Medal-Solution) | 科学图像 copy-move 伪造分割：冻结 DINOv2 + 轻量 CNN 解码器，保守双门控压误检，附前六名金牌方案完整复盘 | 🥈 **Kaggle 银牌**（1,564 队） |
-| [Go2_RL](https://github.com/cainiao33/Go2_RL) | Unitree Go2 四足机器人强化学习：自主导航 + 运动控制（PPO + 奖励工程深度对齐评分公式 + 课程学习） | 腾讯开悟全球公开赛 区域初赛**第 2** · 全国决赛**二等奖** |
+| [AIC-4D-Radar-Detection](https://github.com/cainiao33/AIC-4D-Radar-Detection) | 3D detection from 4D mmWave radar point clouds (radar-only): SFA3D network kept as-is, original 8D→4D SNR mapping + cross-class NMS · 110 FPS · INT8 12.3 MB | **National Finals 2nd Prize**, AIC 2025 Global Campus AI Algorithm Elite Competition · 75 mAP@0.5 |
+| [Scientific-Image-Forgery-Detection](https://github.com/cainiao33/Recod.AI-LUC-Scientific-Image-Forgery-Detection-Silver-Medal-Solution) | Copy-move forgery segmentation in scientific images: frozen DINOv2 + lightweight CNN decoder, conservative dual gating against false positives, full retrospective of all top-6 gold solutions | 🥈 **Kaggle Silver Medal** (1,564 teams, top 5%) |
+| [Go2_RL](https://github.com/cainiao33/Go2_RL) | Unitree Go2 quadruped RL: autonomous navigation + locomotion (PPO + reward engineering aligned with the scoring formula + curriculum learning) | Regional preliminary **2nd** · National Finals **2nd Prize** (2026 Tencent AI Arena Global Open) |
 
-习惯对每场竞赛做代码级复盘并开源——复盘方法论和名次一样值钱。
+Every competition gets a code-level retrospective, open sourced — the methodology is worth as much as the result.
 
-## 其他方向经历
+## Other Experience
 
-腾讯广告算法大赛（KDD Cup 联合）全球前 3% · 智能体课题获优秀学士毕业论文
+Outstanding undergraduate thesis award for an agent project.
 
-## 联系
+## Contact
 
 📧 [webcainiao@gmail.com](mailto:webcainiao@gmail.com) · [Kaggle @web3cainiao](https://www.kaggle.com/web3cainiao)
 
 <details>
-<summary>English</summary>
+<summary>中文</summary>
 
-CV & robotic perception, Guangzhou. Every competition gets a code-level retrospective, open sourced.
+计算机视觉 & 机器人感知。每场竞赛都做代码级复盘并开源——复盘方法论和名次一样值钱。
 
-- **4D radar–camera fusion** — SFA4D for 3D detection from 4D mmWave radar + monocular camera: 8D→4D point mapping, KFPN feature fusion, anchor-free head. 75 mAP@0.5 at 110 FPS; ONNX export down to 13 MB. National 2nd Prize, AIC 2025 finals.
-- **Kaggle Silver** — Scientific Image Forgery Detection (1,564 teams): frozen DINOv2 + lightweight CNN decoder for copy-move forgery segmentation, with full retrospective of all top-6 gold solutions.
-- **Quadruped RL** — Unitree Go2 autonomous navigation & locomotion via PPO + reward engineering + curriculum learning. Regional runner-up, national finals 2nd prize (Tencent Kaiwu Open).
+- **4D 毫米波雷达 3D 检测** — [AIC-4D-Radar-Detection](https://github.com/cainiao33/AIC-4D-Radar-Detection)：基于 SFA3D（网络沿用原版），原创 8D→4D SNR 映射 + 跨类别 NMS，110 FPS，INT8 量化后 12.3 MB。AIC 2025 全球校园算法精英大赛全国总决赛**二等奖** · 75 mAP@0.5。
+- **Kaggle 银牌** — [科学图像伪造检测](https://github.com/cainiao33/Recod.AI-LUC-Scientific-Image-Forgery-Detection-Silver-Medal-Solution)（1,564 队，前 5%）：冻结 DINOv2 + 轻量 CNN 解码器做 copy-move 伪造分割，保守双门控压误检，附前六名金牌方案完整复盘。
+- **四足机器人强化学习** — [Go2_RL](https://github.com/cainiao33/Go2_RL)：Unitree Go2 自主导航 + 运动控制（PPO + 奖励工程深度对齐评分公式 + 课程学习）。腾讯开悟全球公开赛区域初赛**第 2** · 全国决赛**二等奖**。
 
-Currently: edge deployment of detection/fusion models.
-Also: global top 3% at the Tencent × KDD Cup ads challenge.
+currently：检测 / 融合算法的边缘部署。
+
+其他：智能体课题获优秀学士毕业论文。
 
 📧 webcainiao@gmail.com
 
